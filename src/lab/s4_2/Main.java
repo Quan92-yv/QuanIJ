@@ -2,19 +2,19 @@ package lab.s4_2;
 
 public class Main {
     public static void main(String[] args){
-        hs s1 = new hs();
+        SinhVien s1 = new SinhVien();
         s1.setId(1);
         s1.setFullName("Ng Van A");
         s1.setTel("012345678");
         s1.setAddress("Cau Giay");
 
-        hs s2= new hs();
+        SinhVien s2= new SinhVien();
         s2.setId(2);
         s2.setFullName("Le Van B");
         s2.setTel("098765432");
         s2.setAddress("My Dinh");
 
-        Class lh = new Class();
+        LopHoc lh = new LopHoc();
         lh.setId(1);
         lh.setName("T2009M");
         lh.setRoom("A8");

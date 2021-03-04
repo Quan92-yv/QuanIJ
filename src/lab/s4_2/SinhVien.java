@@ -1,11 +1,11 @@
 package lab.s4_2;
 
-public class hs {
+public class SinhVien {
     int id;
     String fullName;
     String tel;
     String address;
-    public hs() {
+    public SinhVien() {
     }
     public int getId() {
         return id;

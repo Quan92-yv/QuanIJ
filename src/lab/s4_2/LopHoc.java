@@ -2,13 +2,13 @@ package lab.s4_2;
 
 import java.util.ArrayList;
 
-public class Class {
+public class LopHoc {
     int id;
     String name;
     String room;
-    ArrayList<hs> students;
+    ArrayList<SinhVien> students;
 
-    public Class() {
+    public LopHoc() {
         students = new ArrayList<>();
     }
     public int getId() {
@@ -29,14 +29,14 @@ public class Class {
     public void setRoom(String room) {
         this.room = room;
     }
-    public void addStudent(hs s){
+    public void addStudent(SinhVien s){
         students.add(s);
     }
     public void removeStudent(int index){
         students.remove(index);
     }
     public void printStudents(){
-        for (hs s:students){
+        for (SinhVien s:students){
             System.out.println("MS:"+s.getId()+" Ten: "+s.getFullName());
         }
     }
