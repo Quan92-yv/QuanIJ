@@ -54,4 +54,5 @@ public class Student extends Person {
         System.out.println("Mark:"+this.getMark());
         System.out.println("Email:"+this.getEmail());
     }
+
 }

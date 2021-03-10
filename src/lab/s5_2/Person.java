@@ -63,4 +63,5 @@ public class Person {
         System.out.println("Ngay sinh:"+this.getBirthday());
         System.out.println("Dia chi:"+this.getAddress());
     }
+
 }

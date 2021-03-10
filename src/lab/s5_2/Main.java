@@ -1,7 +1,7 @@
 package lab.s5_2;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Person p = new Person();
         Student s = new Student();
         p.inputInfo();
@@ -10,5 +10,4 @@ public class Main {
         s.inputInfo();
         s.showInfo();
     }
-
 }
