@@ -1,4 +1,4 @@
-package lab.s5_2;
+package lab.s5;
 
 import java.util.Scanner;
 
